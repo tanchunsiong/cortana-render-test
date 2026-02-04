@@ -304,6 +304,9 @@ startCommand: "python app.py"</code></pre>
 
   <div style="background: linear-gradient(135deg, #1a2e1a 0%, #16213e 100%); border-radius: 12px; padding: 25px; margin: 30px 0; text-align: center;">
     <p style="font-size: 1.3em; margin-bottom: 15px;">🤖 <em>"It's 2026 — of course your hackathon project needs an LLM."</em></p>
+    <p style="color: #999; font-size: 0.9em; margin-bottom: 15px;">
+      (Yes, this webpage might be slop — but the <a href="https://github.com/tanchunsiong/agent-skills">agent skills</a> are not. We promise.)
+    </p>
     <p style="color: #ccc; margin-bottom: 15px;">
       We've done everything we can to make this as smooth as possible.<br>
       The skills are ready. The APIs are documented. The deploy button works.<br>
