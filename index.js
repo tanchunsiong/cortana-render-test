@@ -11,6 +11,7 @@ const html = `<!DOCTYPE html>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
       background: #0b0b0f;
@@ -70,10 +71,12 @@ const html = `<!DOCTYPE html>
       cursor: pointer;
       transition: all 0.2s;
       font-size: 14px;
+      text-decoration: none;
     }
     .nav-item:hover, .nav-item.active {
       background: #1e1e28;
       color: #fff;
+      text-decoration: none;
     }
     .nav-item.active {
       border-left: 3px solid #2D8CFF;
@@ -291,15 +294,15 @@ const html = `<!DOCTYPE html>
 
   <div class="container">
     <nav class="sidebar">
-      <div class="nav-item active"><span class="nav-icon">🚀</span> Getting Started</div>
-      <div class="nav-item"><span class="nav-icon">🧪</span> Agent Skills</div>
-      <div class="nav-item"><span class="nav-icon">⚙️</span> Setup Steps</div>
-      <div class="nav-item"><span class="nav-icon">📋</span> Quick Reference</div>
-      <div class="nav-item"><span class="nav-icon">🔗</span> Useful Links</div>
+      <a href="#getting-started" class="nav-item active"><span class="nav-icon">🚀</span> Getting Started</a>
+      <a href="#agent-skills" class="nav-item"><span class="nav-icon">🧪</span> Agent Skills</a>
+      <a href="#setup-steps" class="nav-item"><span class="nav-icon">⚙️</span> Setup Steps</a>
+      <a href="#quick-reference" class="nav-item"><span class="nav-icon">📋</span> Quick Reference</a>
+      <a href="#useful-links" class="nav-item"><span class="nav-icon">🔗</span> Useful Links</a>
     </nav>
 
     <main class="main">
-      <h1>Deploy to Render with OpenClaw</h1>
+      <h1 id="getting-started">Deploy to Render with OpenClaw</h1>
       <p>Welcome, TreeHacks participants! Use your AI agent to deploy Node.js or Python projects to Render.com.</p>
 
       <div class="llm-note">
@@ -312,7 +315,7 @@ const html = `<!DOCTYPE html>
         <strong>Port:</strong> process.env.PORT (auto-assigned) · <strong>Region:</strong> Oregon
       </div>
 
-      <h2>🧪 Zoom Developer Agent Skills <span class="tag">NEW</span></h2>
+      <h2 id="agent-skills">🧪 Zoom Developer Agent Skills <span class="tag">NEW</span></h2>
       <p>Specialized skills to help your LLM build Zoom integrations faster:</p>
       <p><a href="https://github.com/tanchunsiong/agent-skills" style="font-size: 16px; font-weight: 600;">📦 github.com/tanchunsiong/agent-skills</a></p>
       
@@ -340,7 +343,7 @@ const html = `<!DOCTYPE html>
 cp -r agent-skills/* ~/.claude/skills/     <span class="code-comment"># Claude Code</span>
 cp -r agent-skills/* ~/.config/opencode/skills/  <span class="code-comment"># OpenCode</span></code></pre>
 
-      <h2>⚙️ Setup Steps</h2>
+      <h2 id="setup-steps">⚙️ Setup Steps</h2>
 
       <div class="step">
         <div class="step-num">1</div>
@@ -380,7 +383,7 @@ RENDER_API_KEY=rnd_YOUR_KEY_HERE</code></pre>
         </div>
       </div>
 
-      <h2>📋 Quick Reference</h2>
+      <h2 id="quick-reference">📋 Quick Reference</h2>
       
       <div class="card">
         <h3>Node.js</h3>
@@ -400,7 +403,7 @@ startCommand: "python app.py"</code></pre>
         <strong>⚠️ Free Tier:</strong> Sleeps after 15min inactivity. First request takes ~30s to wake.
       </div>
 
-      <h2>🔗 Useful Links</h2>
+      <h2 id="useful-links">🔗 Useful Links</h2>
       <ul style="list-style: none; line-height: 2;">
         <li>🧪 <a href="https://github.com/tanchunsiong/agent-skills">Agent Skills (Beta)</a></li>
         <li>📹 <a href="https://developers.zoom.us">Zoom Developer Platform</a></li>
