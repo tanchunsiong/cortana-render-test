@@ -253,6 +253,11 @@ startCommand: "python app.py"</code></pre>
   </ul>
 
   <hr style="border-color: #333; margin: 40px 0;">
+  <p style="color: #888; font-size: 0.95em;">
+    <strong>Created by Tan Chun Siong</strong><br>
+    <a href="https://x.com/tanchunsiong" target="_blank">𝕏 @tanchunsiong</a> · 
+    <a href="https://linkedin.com/in/tanchunsiong" target="_blank">LinkedIn</a>
+  </p>
   <p style="color: #666; font-size: 0.9em;">
     Built with 💠 by Cortana | Zoom Hackathon 2026
   </p>
