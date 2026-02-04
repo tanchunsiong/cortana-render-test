@@ -302,6 +302,18 @@ startCommand: "python app.py"</code></pre>
     <li><a href="https://docs.openclaw.ai" target="_blank">OpenClaw Documentation</a></li>
   </ul>
 
+  <div style="background: linear-gradient(135deg, #1a2e1a 0%, #16213e 100%); border-radius: 12px; padding: 25px; margin: 30px 0; text-align: center;">
+    <p style="font-size: 1.3em; margin-bottom: 15px;">🤖 <em>"It's 2026 — of course your hackathon project needs an LLM."</em></p>
+    <p style="color: #ccc; margin-bottom: 15px;">
+      We've done everything we can to make this as smooth as possible.<br>
+      The skills are ready. The APIs are documented. The deploy button works.<br>
+      Now it's your turn to build something amazing.
+    </p>
+    <p style="font-size: 1.1em; color: #4CAF50;">
+      🚀 Good luck at TreeHacks, and cheers to the Year of the LLM! 🎉
+    </p>
+  </div>
+
   <hr style="border-color: #333; margin: 40px 0;">
   <p style="color: #888; font-size: 0.95em;">
     <strong>Created by Tan Chun Siong</strong><br>
