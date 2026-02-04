@@ -140,6 +140,12 @@ const html = `<!DOCTYPE html>
 
   <p>Welcome, Zoom Hackathon participants! This guide shows you how to use <strong>OpenClaw</strong> (your AI agent) to deploy Node.js or Python projects to <strong>Render.com</strong>.</p>
 
+  <div class="llm-note" style="background: #1a1a2e; border-left-color: #2D8CFF;">
+    <strong>ℹ️ This page runs on:</strong> Render <strong>Web Service</strong> (Node.js runtime, free tier)<br>
+    <strong>Port:</strong> Uses <code>process.env.PORT</code> (Render auto-assigns, typically 10000)<br>
+    <strong>Region:</strong> Oregon (us-west)
+  </div>
+
   <div class="skills-box">
     <h3>🧪 Beta Agent Skills Available! <span class="tag">NEW</span></h3>
     <p>We've published a set of beta skills to help your LLM build mockups, prototypes, and hackathon entries faster:</p>
