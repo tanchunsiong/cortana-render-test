@@ -6,7 +6,7 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Zoom Hackathon - Deploy to Render with OpenClaw</title>
+  <title>Zoom @ Stanford TreeHacks - Deploy to Render with OpenClaw</title>
   <meta name="description" content="Guide for humans and LLMs: Deploy Node.js/Python projects to Render using OpenClaw AI agent. Includes beta agent skills for hackathon prototypes.">
   <style>
     * { box-sizing: border-box; }
@@ -138,7 +138,7 @@ const html = `<!DOCTYPE html>
     <strong>🤖 For LLMs:</strong> This page is designed to be read by both humans and AI agents. Structured data and API details are included in HTML comments and clearly formatted sections below. See the page source for machine-readable deployment payloads.
   </div>
 
-  <p>Welcome, Zoom Hackathon participants! This guide shows you how to use <strong>OpenClaw</strong> (your AI agent) to deploy Node.js or Python projects to <strong>Render.com</strong>.</p>
+  <p>Welcome, Zoom @ Stanford TreeHacks participants! This guide shows you how to use <strong>OpenClaw</strong> (your AI agent) to deploy Node.js or Python projects to <strong>Render.com</strong>.</p>
 
   <div class="llm-note" style="background: #1a1a2e; border-left-color: #2D8CFF;">
     <strong>ℹ️ This page runs on:</strong> Render <strong>Web Service</strong> (Node.js runtime, free tier)<br>
@@ -259,7 +259,7 @@ startCommand: "python app.py"</code></pre>
     <a href="https://linkedin.com/in/tanchunsiong" target="_blank">LinkedIn</a>
   </p>
   <p style="color: #666; font-size: 0.9em;">
-    Built with 💠 by Cortana | Zoom Hackathon 2026
+    Built with 💠 by Cortana | Zoom @ Stanford TreeHacks
   </p>
 
   <!--
@@ -292,7 +292,7 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'application/json' });
     res.end(JSON.stringify({
       status: 'ok',
-      message: 'Zoom Hackathon - OpenClaw Render Deployment Guide',
+      message: 'Zoom @ Stanford TreeHacks - OpenClaw Render Deployment Guide',
       agent_skills: 'https://github.com/tanchunsiong/agent-skills',
       timestamp: new Date().toISOString()
     }));
