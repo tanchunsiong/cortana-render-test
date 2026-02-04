@@ -147,18 +147,68 @@ const html = `<!DOCTYPE html>
   </div>
 
   <div class="skills-box">
-    <h3>🧪 Beta Agent Skills Available! <span class="tag">NEW</span></h3>
-    <p>We've published a set of beta skills to help your LLM build mockups, prototypes, and hackathon entries faster:</p>
+    <h3>🧪 Zoom Developer Agent Skills <span class="tag">NEW</span></h3>
+    <p>We've published specialized skills to help your LLM build Zoom integrations faster:</p>
     <p><a href="https://github.com/tanchunsiong/agent-skills" target="_blank" style="font-size: 1.2em; font-weight: bold;">
       📦 github.com/tanchunsiong/agent-skills
     </a></p>
-    <p>These skills include:</p>
-    <ul>
-      <li><strong>Zoom API integration</strong> - Meetings, webinars, OAuth flows</li>
-      <li><strong>Render deployment</strong> - Deploy Node.js/Python apps via API</li>
-      <li><strong>Project scaffolding</strong> - Quick-start templates</li>
-    </ul>
-    <p><strong>To use:</strong> Clone the repo and add skills to your agent's skills directory, or tell your LLM to read the SKILL.md files directly from GitHub.</p>
+    
+    <h4 style="color: #4CAF50; margin-top: 20px;">Available Skills:</h4>
+    <table style="width: 100%; border-collapse: collapse; margin: 10px 0;">
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-general</strong></td>
+        <td style="padding: 8px;">Hub skill - Core concepts, authentication, OAuth flows, use case routing</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-rest-api</strong></td>
+        <td style="padding: 8px;">600+ REST API endpoints - Meetings, users, webinars, recordings, reports</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-meeting-sdk</strong></td>
+        <td style="padding: 8px;">Embed Zoom meetings in web apps (React, Vue, vanilla JS)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-video-sdk</strong></td>
+        <td style="padding: 8px;">Build custom video experiences with full UI control</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-webhooks</strong></td>
+        <td style="padding: 8px;">Real-time event notifications (meeting started, participant joined, etc.)</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-websockets</strong></td>
+        <td style="padding: 8px;">Real-time WebSocket connections for live event streaming</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-rtms</strong></td>
+        <td style="padding: 8px;">Real-Time Media Streams - Access live audio, video, and transcripts</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-team-chat</strong></td>
+        <td style="padding: 8px;">Team Chat APIs - Channels, messages, bots</td>
+      </tr>
+      <tr style="border-bottom: 1px solid #333;">
+        <td style="padding: 8px;"><strong>zoom-apps-sdk</strong></td>
+        <td style="padding: 8px;">Build Zoom Apps that run inside the Zoom client</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px;"><strong>zoom-ui-toolkit</strong></td>
+        <td style="padding: 8px;">Pre-built UI components for Zoom integrations</td>
+      </tr>
+    </table>
+
+    <h4 style="color: #4CAF50; margin-top: 20px;">How It Works:</h4>
+    <p>Ask your LLM a question, and it automatically loads the right skill:</p>
+    <pre style="margin: 10px 0;"><code>"How do I create a meeting via API?" → loads zoom-rest-api
+"Embed Zoom in my React app" → loads zoom-meeting-sdk  
+"Build a meeting bot with transcription" → loads zoom-rtms + zoom-meeting-sdk</code></pre>
+
+    <h4 style="color: #4CAF50; margin-top: 20px;">Quick Start:</h4>
+    <pre style="margin: 10px 0;"><code># Clone and add to your agent
+git clone https://github.com/tanchunsiong/agent-skills.git
+cp -r agent-skills/* ~/.claude/skills/   # For Claude Code
+cp -r agent-skills/* ~/.config/opencode/skills/  # For OpenCode</code></pre>
+    <p>Or point your LLM directly to the GitHub repo to read SKILL.md files.</p>
   </div>
 
   <h2>Prerequisites</h2>
