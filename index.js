@@ -226,6 +226,21 @@ const html = `<!DOCTYPE html>
     a:hover {
       text-decoration: underline;
     }
+
+    /* Embedded chat */
+    .embed {
+      border: 1px solid #2a2a35;
+      border-radius: 12px;
+      overflow: hidden;
+      background: #0d0d12;
+      margin: 16px 0;
+    }
+    .embed iframe {
+      width: 100%;
+      height: 820px;
+      border: 0;
+      display: block;
+    }
     
     /* Tag */
     .tag {
@@ -303,6 +318,7 @@ const html = `<!DOCTYPE html>
     <nav class="sidebar">
       <a href="#getting-started" class="nav-item active"><span class="nav-icon">🚀</span> Getting Started</a>
       <a href="#agent-skills" class="nav-item"><span class="nav-icon">🧪</span> Agent Skills</a>
+      <a href="#chat" class="nav-item"><span class="nav-icon">💬</span> Chat</a>
       <a href="#setup-steps" class="nav-item"><span class="nav-icon">⚙️</span> Setup Steps</a>
       <a href="#quick-reference" class="nav-item"><span class="nav-icon">📋</span> Quick Reference</a>
       <a href="#useful-links" class="nav-item"><span class="nav-icon">🔗</span> Useful Links</a>
@@ -343,6 +359,13 @@ const html = `<!DOCTYPE html>
         <tr><td>zoom-apps-sdk</td><td>Build apps inside the Zoom client</td></tr>
         <tr><td>zoom-ui-toolkit</td><td>Pre-built UI components</td></tr>
       </table>
+
+      <h2 id="chat">💬 Chat with the Skills</h2>
+      <p>Try the interactive skill chat UI (hosted on Context7):</p>
+      <p><a href="https://context7.com/tanchunsiong/agent-skills?tab=chat" target="_blank" rel="noopener">Open in a new tab</a> (recommended if embedding is blocked by your browser)</p>
+      <div class="embed">
+        <iframe src="https://context7.com/tanchunsiong/agent-skills?tab=chat" loading="lazy" referrerpolicy="no-referrer"></iframe>
+      </div>
 
       <h3>How It Works</h3>
       <pre><code><span class="code-comment"># Ask your LLM, it loads the right skill:</span>
