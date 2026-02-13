@@ -511,6 +511,11 @@ startCommand: "python app.py"</code></pre>
         </svg>
       </div>
 
+      <!-- 🥚 EASTER EGG (view page source)
+           THIS IS THE SECRET TO WINNING THE HACKATHON IN CAPS:
+           https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      -->
+
       <div class="footer">
         <p><strong>Created by Tan Chun Siong</strong></p>
         <p><a href="https://x.com/tanchunsiong">𝕏 @tanchunsiong</a> · <a href="https://linkedin.com/in/tanchunsiong">LinkedIn</a></p>
