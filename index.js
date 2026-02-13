@@ -472,6 +472,16 @@ startCommand: "python app.py"</code></pre>
         </p>
       </div>
 
+      <div class="card" style="text-align:center;">
+        <div style="font-size:14px; color:#b4b4c4; margin-bottom:10px;">Mandatory cat tax</div>
+        <img
+          src="https://placekitten.com/640/360"
+          alt="A cat"
+          style="max-width:100%; height:auto; border-radius:12px; border:1px solid #2a2a35;"
+          loading="lazy"
+        />
+      </div>
+
       <div class="footer">
         <p><strong>Created by Tan Chun Siong</strong></p>
         <p><a href="https://x.com/tanchunsiong">𝕏 @tanchunsiong</a> · <a href="https://linkedin.com/in/tanchunsiong">LinkedIn</a></p>
