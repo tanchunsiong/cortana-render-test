@@ -318,6 +318,11 @@ const html = `<!DOCTYPE html>
       <h2 id="agent-skills">🧪 Zoom Developer Agent Skills <span class="tag">NEW</span></h2>
       <p>Specialized skills to help your LLM build Zoom integrations faster:</p>
       <p><a href="https://github.com/tanchunsiong/agent-skills" style="font-size: 16px; font-weight: 600;">📦 github.com/tanchunsiong/agent-skills</a></p>
+
+      <div class="card card-highlight">
+        <strong>✅ Tested with:</strong>
+        qwen/qwen3-coder-next · z-ai/glm-5 · anthropic opus 4.5 · gpt 5.2 · moonshotai/minimax-m2.5
+      </div>
       
       <table class="skills-table">
         <tr><td>zoom-general</td><td>Hub skill - Core concepts, auth, OAuth flows, routing</td></tr>
@@ -445,6 +450,13 @@ const server = http.createServer((req, res) => {
       status: 'ok',
       message: 'Zoom @ Stanford TreeHacks - OpenClaw Render Deployment Guide',
       agent_skills: 'https://github.com/tanchunsiong/agent-skills',
+      tested_with: [
+        'qwen/qwen3-coder-next',
+        'z-ai/glm-5',
+        'anthropic opus 4.5',
+        'gpt 5.2',
+        'moonshotai/minimax-m2.5'
+      ],
       timestamp: new Date().toISOString()
     }));
   } else if (req.url === '/llm' || req.url === '/api/llm') {
@@ -452,6 +464,13 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({
       guide: "Deploy to Render.com with OpenClaw",
       agent_skills_repo: "https://github.com/tanchunsiong/agent-skills",
+      tested_with: [
+        "qwen/qwen3-coder-next",
+        "z-ai/glm-5",
+        "anthropic opus 4.5",
+        "gpt 5.2",
+        "moonshotai/minimax-m2.5"
+      ],
       render_api: {
         base_url: "https://api.render.com/v1",
         auth_header: "Authorization: Bearer <RENDER_API_KEY>",
