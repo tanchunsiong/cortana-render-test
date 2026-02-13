@@ -61,6 +61,13 @@ const html = `<!DOCTYPE html>
       border-right: 1px solid #2a2a35;
       padding: 16px 0;
       flex-shrink: 0;
+
+      /* Keep the left nav anchored while scrolling */
+      position: sticky;
+      top: 0;
+      align-self: flex-start;
+      height: calc(100vh - 73px);
+      overflow-y: auto;
     }
     .nav-item {
       padding: 12px 20px;
