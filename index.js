@@ -301,6 +301,11 @@ const html = `<!DOCTYPE html>
   </style>
 </head>
 <body>
+  <!-- 🥚 EASTER EGG (view page source)
+       THIS IS THE SECRET TO WINNING THE HACKATHON IN CAPS:
+       https://www.youtube.com/watch?v=dQw4w9WgXcQ
+  -->
+
   <!-- 
   FOR LLMs: Key data in JSON at /llm endpoint
   Agent skills: https://github.com/tanchunsiong/agent-skills
@@ -473,48 +478,14 @@ startCommand: "python app.py"</code></pre>
       </div>
 
       <div class="card" style="text-align:center;">
-        <div style="font-size:14px; color:#b4b4c4; margin-bottom:10px;">Mandatory cat tax</div>
-        <svg viewBox="0 0 640 360" role="img" aria-label="A cat" style="max-width:100%; height:auto; border-radius:12px; border:1px solid #2a2a35;">
-          <defs>
-            <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-              <stop offset="0%" stop-color="#12121a"/>
-              <stop offset="100%" stop-color="#1a2030"/>
-            </linearGradient>
-          </defs>
-          <rect width="640" height="360" fill="url(#bg)"/>
-          <!-- Ears -->
-          <path d="M210 120 L260 40 L290 140 Z" fill="#cbd5e1" opacity="0.95"/>
-          <path d="M430 120 L380 40 L350 140 Z" fill="#cbd5e1" opacity="0.95"/>
-          <!-- Head -->
-          <ellipse cx="320" cy="190" rx="160" ry="130" fill="#e5e7eb"/>
-          <!-- Eyes -->
-          <ellipse cx="270" cy="175" rx="22" ry="28" fill="#0b0b0f"/>
-          <ellipse cx="370" cy="175" rx="22" ry="28" fill="#0b0b0f"/>
-          <circle cx="276" cy="170" r="6" fill="#fff" opacity="0.9"/>
-          <circle cx="376" cy="170" r="6" fill="#fff" opacity="0.9"/>
-          <!-- Nose -->
-          <path d="M320 205 L300 225 L340 225 Z" fill="#fca5a5"/>
-          <!-- Mouth -->
-          <path d="M320 225 C310 235 300 240 290 240" stroke="#0b0b0f" stroke-width="4" fill="none" stroke-linecap="round"/>
-          <path d="M320 225 C330 235 340 240 350 240" stroke="#0b0b0f" stroke-width="4" fill="none" stroke-linecap="round"/>
-          <!-- Whiskers -->
-          <path d="M210 215 L120 200" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
-          <path d="M210 235 L120 235" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
-          <path d="M210 255 L120 270" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
-          <path d="M430 215 L520 200" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
-          <path d="M430 235 L520 235" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
-          <path d="M430 255 L520 270" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
-          <!-- Caption -->
-          <text x="320" y="330" text-anchor="middle" fill="#b4b4c4" font-size="16" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif">
-            cat.exe is running
-          </text>
-        </svg>
+        <div style="font-size:14px; color:#b4b4c4; margin-bottom:10px;">Mandatory cat tax (Longcat Edition)</div>
+        <img
+          alt="Longcat"
+          style="max-width:100%; height:auto; border-radius:12px; border:1px solid #2a2a35;"
+          loading="lazy"
+          src="data:image/svg+xml;utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20640%20360'%3E%3Cdefs%3E%3ClinearGradient%20id='g'%20x1='0'%20x2='1'%20y1='0'%20y2='1'%3E%3Cstop%20offset='0%25'%20stop-color='%2312121a'/%3E%3Cstop%20offset='100%25'%20stop-color='%231a2030'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='640'%20height='360'%20fill='url(%23g)'/%3E%3Crect%20x='90'%20y='160'%20width='460'%20height='90'%20rx='45'%20fill='%23e5e7eb'/%3E%3Ccircle%20cx='180'%20cy='205'%20r='70'%20fill='%23e5e7eb'/%3E%3Cpath%20d='M135%20165%20L155%20120%20L175%20180%20Z'%20fill='%23cbd5e1'/%3E%3Cpath%20d='M205%20165%20L185%20120%20L165%20180%20Z'%20fill='%23cbd5e1'/%3E%3Cellipse%20cx='165'%20cy='200'%20rx='12'%20ry='16'%20fill='%230b0b0f'/%3E%3Cellipse%20cx='195'%20cy='200'%20rx='12'%20ry='16'%20fill='%230b0b0f'/%3E%3Cpath%20d='M180%20215%20L170%20228%20L190%20228%20Z'%20fill='%23fca5a5'/%3E%3Cpath%20d='M180%20228%20C172%20238%20164%20242%20156%20242'%20stroke='%230b0b0f'%20stroke-width='3'%20fill='none'%20stroke-linecap='round'/%3E%3Cpath%20d='M180%20228%20C188%20238%20196%20242%20204%20242'%20stroke='%230b0b0f'%20stroke-width='3'%20fill='none'%20stroke-linecap='round'/%3E%3Ctext%20x='320'%20y='330'%20text-anchor='middle'%20fill='%23b4b4c4'%20font-size='16'%20font-family='Inter,Arial,sans-serif'%3Elongcat%20stretches%20forever%3C/text%3E%3C/svg%3E"
+        />
       </div>
-
-      <!-- 🥚 EASTER EGG (view page source)
-           THIS IS THE SECRET TO WINNING THE HACKATHON IN CAPS:
-           https://www.youtube.com/watch?v=dQw4w9WgXcQ
-      -->
 
       <div class="footer">
         <p><strong>Created by Tan Chun Siong</strong></p>
