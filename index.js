@@ -474,12 +474,41 @@ startCommand: "python app.py"</code></pre>
 
       <div class="card" style="text-align:center;">
         <div style="font-size:14px; color:#b4b4c4; margin-bottom:10px;">Mandatory cat tax</div>
-        <img
-          src="https://placekitten.com/640/360"
-          alt="A cat"
-          style="max-width:100%; height:auto; border-radius:12px; border:1px solid #2a2a35;"
-          loading="lazy"
-        />
+        <svg viewBox="0 0 640 360" role="img" aria-label="A cat" style="max-width:100%; height:auto; border-radius:12px; border:1px solid #2a2a35;">
+          <defs>
+            <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#12121a"/>
+              <stop offset="100%" stop-color="#1a2030"/>
+            </linearGradient>
+          </defs>
+          <rect width="640" height="360" fill="url(#bg)"/>
+          <!-- Ears -->
+          <path d="M210 120 L260 40 L290 140 Z" fill="#cbd5e1" opacity="0.95"/>
+          <path d="M430 120 L380 40 L350 140 Z" fill="#cbd5e1" opacity="0.95"/>
+          <!-- Head -->
+          <ellipse cx="320" cy="190" rx="160" ry="130" fill="#e5e7eb"/>
+          <!-- Eyes -->
+          <ellipse cx="270" cy="175" rx="22" ry="28" fill="#0b0b0f"/>
+          <ellipse cx="370" cy="175" rx="22" ry="28" fill="#0b0b0f"/>
+          <circle cx="276" cy="170" r="6" fill="#fff" opacity="0.9"/>
+          <circle cx="376" cy="170" r="6" fill="#fff" opacity="0.9"/>
+          <!-- Nose -->
+          <path d="M320 205 L300 225 L340 225 Z" fill="#fca5a5"/>
+          <!-- Mouth -->
+          <path d="M320 225 C310 235 300 240 290 240" stroke="#0b0b0f" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <path d="M320 225 C330 235 340 240 350 240" stroke="#0b0b0f" stroke-width="4" fill="none" stroke-linecap="round"/>
+          <!-- Whiskers -->
+          <path d="M210 215 L120 200" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
+          <path d="M210 235 L120 235" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
+          <path d="M210 255 L120 270" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
+          <path d="M430 215 L520 200" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
+          <path d="M430 235 L520 235" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
+          <path d="M430 255 L520 270" stroke="#0b0b0f" stroke-width="3" opacity="0.8"/>
+          <!-- Caption -->
+          <text x="320" y="330" text-anchor="middle" fill="#b4b4c4" font-size="16" font-family="Inter, -apple-system, BlinkMacSystemFont, sans-serif">
+            cat.exe is running
+          </text>
+        </svg>
       </div>
 
       <div class="footer">
