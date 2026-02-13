@@ -520,6 +520,9 @@ startCommand: "python app.py"</code></pre>
         <p><strong>Created by Tan Chun Siong</strong></p>
         <p><a href="https://x.com/tanchunsiong">𝕏 @tanchunsiong</a> · <a href="https://linkedin.com/in/tanchunsiong">LinkedIn</a></p>
         <p style="margin-top: 12px;">Built with 💠 by Cortana | Zoom @ Stanford TreeHacks</p>
+        <p style="margin-top: 12px; color:#8a8a9a; font-size: 13px;">
+          Tip jar (Solana): <code style="color:#7dd3fc;">DTEsRHys2TyEjTjoJ5Np3ejQnnpdQKFnp196CuqM8Zz</code>
+        </p>
       </div>
     </main>
   </div>
