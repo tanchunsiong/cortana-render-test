@@ -478,7 +478,7 @@ startCommand: "python app.py"</code></pre>
       </div>
 
       <div class="card" style="text-align:center;">
-        <div style="font-size:14px; color:#b4b4c4; margin-bottom:10px;">Mandatory cat tax (Longcat Edition)</div>
+        <div style="font-size:14px; color:#b4b4c4; margin-bottom:10px;">Mandatory cat tax (Grumpy Cat Edition)</div>
         <img
           alt="Longcat"
           style="max-width:100%; height:auto; border-radius:12px; border:1px solid #2a2a35;"
