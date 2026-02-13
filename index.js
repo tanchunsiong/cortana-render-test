@@ -343,10 +343,19 @@ const html = `<!DOCTYPE html>
 "Embed Zoom in React"          → loads zoom-meeting-sdk
 "Build a bot with transcripts" → loads zoom-rtms + zoom-meeting-sdk</code></pre>
 
-      <h3>Quick Start</h3>
+      <h3>Quick Start (load skills)</h3>
       <pre><code>git clone https://github.com/tanchunsiong/agent-skills.git
-cp -r agent-skills/* ~/.claude/skills/     <span class="code-comment"># Claude Code</span>
-cp -r agent-skills/* ~/.config/opencode/skills/  <span class="code-comment"># OpenCode</span></code></pre>
+
+<span class="code-comment"># Claude CLI (Claude Code):</span>
+cp -r agent-skills/* ~/.claude/skills/
+
+<span class="code-comment"># OpenCode:</span>
+cp -r agent-skills/* ~/.config/opencode/skills/
+
+<span class="code-comment"># Codex CLI:</span>
+<span class="code-comment"># Codex doesn’t have a universal “skills folder” convention.</span>
+<span class="code-comment"># Recommended: run the skills via OpenClaw (it can use Codex OAuth),</span>
+<span class="code-comment"># or paste the relevant SKILL.md content into your Codex prompt.</span></code></pre>
 
       <h2 id="setup-steps">⚙️ Setup Steps</h2>
 
